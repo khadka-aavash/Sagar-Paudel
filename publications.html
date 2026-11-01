@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Journal articles, reports, datasets and conference talks by Sagar Paudel.">
+  <meta name="theme-color" id="meta-theme" content="#F7F5EC">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Sagar Paudel">
+  <meta property="og:title" content="Publications — Sagar Paudel">
+  <meta property="og:description" content="Journal articles, reports, datasets and conference talks by Sagar Paudel.">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='9' fill='%2300833E'/%3E%3Cg fill='none' stroke='%23fff' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M16 27V15'/%3E%3Cpath d='M16 15c0-5.6 3.8-9 9.5-9 0 5.6-3.9 9-9.5 9Z'/%3E%3Cpath d='M16 19.5c0-4.5-3-7-7.6-7 0 4.5 3 7 7.6 7Z'/%3E%3C/g%3E%3C/svg%3E">
+  <!-- Apply the saved / preferred theme before first paint (no light flash for dark-mode visitors) -->
+  <script>(function(){try{var t=localStorage.getItem("sp-theme");if(!t&&window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches){t="dark";}if(t==="dark"){document.documentElement.setAttribute("data-theme","dark");}}catch(e){}})();</script>
+  <title>Publications — Sagar Paudel</title>
+
+  <!-- Fonts via Fontsource CDN -->
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/ibm-plex-sans@5/400.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/ibm-plex-sans@5/400-italic.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/ibm-plex-sans@5/500.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/ibm-plex-sans@5/600.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/ibm-plex-sans@5/700.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/fraunces@5/600.css">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ================= Background art =================
+       Fixed, low-contrast landscape behind the whole page.
+       To use a real photograph instead, set --bg-photo in styles.css. -->
+  <div class="site-bg" aria-hidden="true">
+    <svg class="site-bg-art" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMax slice" focusable="false" role="presentation">
+      <defs>
+        <linearGradient id="bg-sky" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="var(--bg-sky-1)"/>
+          <stop offset="100%" stop-color="var(--bg-sky-2)"/>
+        </linearGradient>
+      </defs>
+
+      <rect width="1600" height="900" fill="url(#bg-sky)"/>
+
+      <!-- Far ridge -->
+      <path class="bg-ridge" d="M0 486 C 190 440 350 478 520 462 C 700 444 830 398 1010 418 C 1190 438 1410 478 1600 450 L1600 900 L0 900 Z" fill="var(--bg-c1)"/>
+      <!-- Hedgerow along the ridge -->
+      <g class="bg-hedge" fill="var(--bg-c2)">
+        <ellipse cx="180" cy="452" rx="26" ry="19"/><ellipse cx="214" cy="458" rx="20" ry="15"/>
+        <ellipse cx="146" cy="459" rx="18" ry="13"/><ellipse cx="392" cy="462" rx="24" ry="18"/>
+        <ellipse cx="424" cy="468" rx="18" ry="13"/><ellipse cx="700" cy="416" rx="28" ry="20"/>
+        <ellipse cx="736" cy="423" rx="20" ry="14"/><ellipse cx="666" cy="424" rx="18" ry="13"/>
+        <ellipse cx="1042" cy="416" rx="25" ry="18"/><ellipse cx="1074" cy="422" rx="18" ry="13"/>
+        <ellipse cx="1310" cy="446" rx="27" ry="19"/><ellipse cx="1346" cy="452" rx="19" ry="14"/>
+        <ellipse cx="1276" cy="453" rx="17" ry="12"/>
+      </g>
+
+      <!-- Middle field -->
+      <path d="M0 588 C 260 546 520 584 820 558 C 1080 534 1360 566 1600 542 L1600 900 L0 900 Z" fill="var(--bg-c2)"/>
+      <g class="bg-rows bg-rows--a" fill="none" stroke="var(--bg-line)" stroke-width="2.4" stroke-linecap="round">
+        <path d="M0 624 C 280 586 560 620 860 594 C 1120 572 1380 602 1600 582"/>
+        <path d="M0 652 C 280 616 560 650 860 624 C 1120 602 1380 630 1600 610"/>
+        <path d="M0 680 C 280 646 560 678 860 654 C 1120 632 1380 658 1600 640"/>
+      </g>
+
+      <!-- Near field -->
+      <path d="M0 706 C 300 668 620 708 900 684 C 1180 660 1400 692 1600 676 L1600 900 L0 900 Z" fill="var(--bg-c3)"/>
+      <g class="bg-rows bg-rows--b" fill="none" stroke="var(--bg-line)" stroke-width="2.6" stroke-linecap="round">
+        <path d="M0 748 C 300 712 620 750 900 726 C 1180 704 1400 734 1600 718"/>
+        <path d="M0 782 C 300 748 620 784 900 762 C 1180 740 1400 768 1600 754"/>
+      </g>
+
+      <!-- Foreground meadow -->
+      <path d="M0 818 C 320 784 640 822 960 800 C 1240 780 1420 806 1600 794 L1600 900 L0 900 Z" fill="var(--bg-c4)"/>
+
+      <!-- Trees — each group sways on its own trunk (see .bg-tree in styles.css) -->
+      <g fill="var(--bg-c5)">
+        <g class="bg-tree" style="--dur:14s; --delay:-1s">
+          <rect x="256" y="676" width="9" height="62" rx="4"/>
+          <ellipse cx="260" cy="650" rx="52" ry="42"/><ellipse cx="222" cy="668" rx="34" ry="26"/><ellipse cx="300" cy="666" rx="32" ry="25"/>
+        </g>
+        <g class="bg-tree" style="--dur:11.5s; --delay:-4s">
+          <rect x="1188" y="690" width="10" height="70" rx="5"/>
+          <ellipse cx="1193" cy="660" rx="58" ry="46"/><ellipse cx="1148" cy="680" rx="36" ry="28"/><ellipse cx="1238" cy="678" rx="34" ry="27"/>
+        </g>
+        <g class="bg-tree" style="--dur:15.5s; --delay:-7s">
+          <rect x="742" y="628" width="7" height="46" rx="3.5"/>
+          <ellipse cx="745" cy="610" rx="38" ry="30"/><ellipse cx="716" cy="624" rx="24" ry="19"/><ellipse cx="774" cy="622" rx="23" ry="18"/>
+        </g>
+        <g class="bg-tree" style="--dur:12.5s; --delay:-3s">
+          <rect x="1516" y="654" width="8" height="54" rx="4"/>
+          <ellipse cx="1520" cy="630" rx="44" ry="35"/><ellipse cx="1486" cy="646" rx="28" ry="22"/>
+        </g>
+        <g class="bg-tree" style="--dur:13s; --delay:-6s">
+          <rect x="66" y="640" width="7" height="48" rx="3.5"/>
+          <ellipse cx="69" cy="620" rx="40" ry="32"/><ellipse cx="102" cy="636" rx="25" ry="20"/>
+        </g>
+      </g>
+    </svg>
+  </div>
+
+  <!-- ================= Header ================= -->
+  <header class="site-header" id="site-header">
+    <div class="wrap header-inner">
+      <a class="logo" href="index.html#hero" aria-label="Sagar Paudel — home">
+        <span class="logo-mark" aria-hidden="true">
+          <svg width="26" height="26" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M16 28V14"/>
+            <path d="M16 14c0-6.2 4.2-10 10.5-10 0 6.2-4.3 10-10.5 10Z"/>
+            <path d="M16 19c0-5-3.4-7.8-8.5-7.8 0 5 3.4 7.8 8.5 7.8Z"/>
+          </svg>
+        </span>
+        <span class="logo-text">Sagar Paudel</span>
+      </a>
+
+      <nav class="site-nav" id="site-nav" aria-label="Primary">
+        <ul class="nav-list" id="nav-list">
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#education">Education</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="blog.html">Speaking &amp; Blog</a></li>
+          <li><a href="publications.html" class="is-active" aria-current="page">Publications</a></li>
+          <li><a href="index.html#cv">CV</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <button class="icon-btn theme-toggle" id="theme-toggle" type="button" aria-pressed="false" aria-label="Switch to dark mode">
+          <svg class="icon-sun" width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true">
+            <circle cx="12" cy="12" r="4.2"/>
+            <path d="M12 2.5v2.4M12 19.1v2.4M2.5 12h2.4M19.1 12h2.4M5.2 5.2l1.7 1.7M17.1 17.1l1.7 1.7M18.8 5.2l-1.7 1.7M6.9 17.1l-1.7 1.7"/>
+          </svg>
+          <svg class="icon-moon" width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/>
+          </svg>
+        </button>
+        <button class="icon-btn menu-toggle" id="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+          <svg class="icon-menu" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" aria-hidden="true">
+            <path d="M4 7h16M4 12h16M4 17h16"/>
+          </svg>
+          <svg class="icon-close" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" aria-hidden="true">
+            <path d="M6 6l12 12M18 6L6 18"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ================= Leaf garland overlay =================
+       Hanging foliage that spans the top of the viewport, just under the
+       header. Purely decorative: fixed, pointer-events:none, aria-hidden.
+       It dims automatically once the page is scrolled (see styles.css). -->
+  <div class="leaf-garland" aria-hidden="true">
+    <svg class="garland-art" viewBox="0 0 1440 80" preserveAspectRatio="xMidYMin slice" focusable="false" role="presentation">
+      <defs>
+        <path id="gl-leaf" d="M0 0C5-7 15-10 22-3 15 5 5 7 0 0Z"/>
+      </defs>
+
+      <!-- back strand: wider, slower swags -->
+      <g class="garland-strand garland-strand--back">
+        <path class="garland-string" d="M0 6 Q 240 70 480 6 M480 6 Q 720 70 960 6 M960 6 Q 1200 70 1440 6"/>
+<use href="#gl-leaf" transform="translate(23.3 15.0) rotate(39.5) scale(0.73 0.73)"/>
+        <use href="#gl-leaf" transform="translate(78.5 20.5) rotate(-15.8) scale(0.85 -0.85)"/>
+        <use href="#gl-leaf" transform="translate(131.6 34.5) rotate(32.8) scale(0.85 0.85)"/>
+        <use href="#gl-leaf" transform="translate(186.2 33.4) rotate(-22.6) scale(0.73 -0.73)"/>
+        <use href="#gl-leaf" transform="translate(240.0 41.0) rotate(26.0) scale(0.85 0.85)"/>
+        <use href="#gl-leaf" transform="translate(293.8 33.4) rotate(-29.4) scale(0.85 -0.85)"/>
+        <use href="#gl-leaf" transform="translate(348.4 34.5) rotate(19.2) scale(0.73 0.73)"/>
+        <use href="#gl-leaf" transform="translate(401.5 20.5) rotate(-36.2) scale(0.85 -0.85)"/>
+        <use href="#gl-leaf" transform="translate(456.7 15.0) rotate(12.5) scale(0.85 0.85)"/>
+        <use href="#gl-leaf" transform="translate(504.7 9.2) rotate(-12.5) scale(0.73 -0.73)"/>
+        <use href="#gl-leaf" transform="translate(557.5 26.4) rotate(36.2) scale(0.85 0.85)"/>
+        <use href="#gl-leaf" transform="translate(612.4 28.5) rotate(-19.2) scale(0.85 -0.85)"/>
+        <use href="#gl-leaf" transform="translate(665.8 39.4) rotate(29.4) scale(0.73 0.73)"/>
+        <use href="#gl-leaf" transform="translate(720.0 35.0) rotate(-26.0) scale(0.85 -0.85)"/>
+        <use href="#gl-leaf" transform="translate(774.2 39.4) rotate(22.6) scale(0.85 0.85)"/>
+        <use href="#gl-leaf" transform="translate(827.6 28.5) rotate(-32.8) scale(0.73 -0.73)"/>
+        <use href="#gl-leaf" transform="translate(882.5 26.4) rotate(15.8) scale(0.85 0.85)"/>
+        <use href="#gl-leaf" transform="translate(935.3 9.2) rotate(-39.5) scale(0.85 -0.85)"/>
+        <use href="#gl-leaf" transform="translate(983.3 15.0) rotate(39.5) scale(0.73 0.73)"/>
+        <use href="#gl-leaf" transform="translate(1038.5 20.5) rotate(-15.8) scale(0.85 -0.85)"/>
+        <use href="#gl-leaf" transform="translate(1091.6 34.5) rotate(32.8) scale(0.85 0.85)"/>
+        <use href="#gl-leaf" transform="translate(1146.2 33.4) rotate(-22.6) scale(0.73 -0.73)"/>
+        <use href="#gl-leaf" transform="translate(1200.0 41.0) rotate(26.0) scale(0.85 0.85)"/>
+        <use href="#gl-leaf" transform="translate(1253.8 33.4) rotate(-29.4) scale(0.85 -0.85)"/>
+        <use href="#gl-leaf" transform="translate(1308.4 34.5) rotate(19.2) scale(0.73 0.73)"/>
+        <use href="#gl-leaf" transform="translate(1361.5 20.5) rotate(-36.2) scale(0.85 -0.85)"/>
+        <use href="#gl-leaf" transform="translate(1416.7 15.0) rotate(12.5) scale(0.85 0.85)"/>
+      </g>
+
+      <!-- front strand -->
+      <g class="garland-strand garland-strand--front">
+        <path class="garland-string" d="M0 2 Q 144 48 288 2 M288 2 Q 432 48 576 2 M576 2 Q 720 48 864 2 M864 2 Q 1008 48 1152 2 M1152 2 Q 1296 48 1440 2"/>
+<use href="#gl-leaf" transform="translate(13.6 9.3) rotate(42.0) scale(0.86 0.86)"/>
+        <use href="#gl-leaf" transform="translate(52.0 12.6) rotate(-14.4) scale(1.00 -1.00)"/>
+        <use href="#gl-leaf" transform="translate(88.1 24.6) rotate(33.0) scale(1.00 1.00)"/>
+        <use href="#gl-leaf" transform="translate(125.6 21.6) rotate(-23.6) scale(0.86 -0.86)"/>
+        <use href="#gl-leaf" transform="translate(162.6 27.6) rotate(23.6) scale(1.00 1.00)"/>
+        <use href="#gl-leaf" transform="translate(199.2 18.6) rotate(-33.0) scale(1.00 -1.00)"/>
+        <use href="#gl-leaf" transform="translate(237.2 18.4) rotate(14.4) scale(0.86 0.86)"/>
+        <use href="#gl-leaf" transform="translate(272.8 3.5) rotate(-42.0) scale(1.00 -1.00)"/>
+        <use href="#gl-leaf" transform="translate(301.6 9.3) rotate(42.0) scale(1.00 1.00)"/>
+        <use href="#gl-leaf" transform="translate(340.0 12.6) rotate(-14.4) scale(0.86 -0.86)"/>
+        <use href="#gl-leaf" transform="translate(376.1 24.6) rotate(33.0) scale(1.00 1.00)"/>
+        <use href="#gl-leaf" transform="translate(413.6 21.6) rotate(-23.6) scale(1.00 -1.00)"/>
+        <use href="#gl-leaf" transform="translate(450.6 27.6) rotate(23.6) scale(0.86 0.86)"/>
+        <use href="#gl-leaf" transform="translate(487.2 18.6) rotate(-33.0) scale(1.00 -1.00)"/>
+        <use href="#gl-leaf" transform="translate(525.2 18.4) rotate(14.4) scale(1.00 1.00)"/>
+        <use href="#gl-leaf" transform="translate(560.8 3.5) rotate(-42.0) scale(0.86 -0.86)"/>
+        <use href="#gl-leaf" transform="translate(589.6 9.3) rotate(42.0) scale(1.00 1.00)"/>
+        <use href="#gl-leaf" transform="translate(628.0 12.6) rotate(-14.4) scale(1.00 -1.00)"/>
+        <use href="#gl-leaf" transform="translate(664.1 24.6) rotate(33.0) scale(0.86 0.86)"/>
+        <use href="#gl-leaf" transform="translate(701.6 21.6) rotate(-23.6) scale(1.00 -1.00)"/>
+        <use href="#gl-leaf" transform="translate(738.6 27.6) rotate(23.6) scale(1.00 1.00)"/>
+        <use href="#gl-leaf" transform="translate(775.2 18.6) rotate(-33.0) scale(0.86 -0.86)"/>
+        <use href="#gl-leaf" transform="translate(813.2 18.4) rotate(14.4) scale(1.00 1.00)"/>
+        <use href="#gl-leaf" transform="translate(848.8 3.5) rotate(-42.0) scale(1.00 -1.00)"/>
+        <use href="#gl-leaf" transform="translate(877.6 9.3) rotate(42.0) scale(0.86 0.86)"/>
+        <use href="#gl-leaf" transform="translate(916.0 12.6) rotate(-14.4) scale(1.00 -1.00)"/>
+        <use href="#gl-leaf" transform="translate(952.1 24.6) rotate(33.0) scale(1.00 1.00)"/>
+        <use href="#gl-leaf" transform="translate(989.6 21.6) rotate(-23.6) scale(0.86 -0.86)"/>
+        <use href="#gl-leaf" transform="translate(1026.6 27.6) rotate(23.6) scale(1.00 1.00)"/>
+        <use href="#gl-leaf" transform="translate(1063.2 18.6) rotate(-33.0) scale(1.00 -1.00)"/>
+        <use href="#gl-leaf" transform="translate(1101.2 18.4) rotate(14.4) scale(0.86 0.86)"/>
+        <use href="#gl-leaf" transform="translate(1136.8 3.5) rotate(-42.0) scale(1.00 -1.00)"/>
+        <use href="#gl-leaf" transform="translate(1165.6 9.3) rotate(42.0) scale(1.00 1.00)"/>
+        <use href="#gl-leaf" transform="translate(1204.0 12.6) rotate(-14.4) scale(0.86 -0.86)"/>
+        <use href="#gl-leaf" transform="translate(1240.1 24.6) rotate(33.0) scale(1.00 1.00)"/>
+        <use href="#gl-leaf" transform="translate(1277.6 21.6) rotate(-23.6) scale(1.00 -1.00)"/>
+        <use href="#gl-leaf" transform="translate(1314.6 27.6) rotate(23.6) scale(0.86 0.86)"/>
+        <use href="#gl-leaf" transform="translate(1351.2 18.6) rotate(-33.0) scale(1.00 -1.00)"/>
+        <use href="#gl-leaf" transform="translate(1389.2 18.4) rotate(14.4) scale(1.00 1.00)"/>
+        <use href="#gl-leaf" transform="translate(1424.8 3.5) rotate(-42.0) scale(0.86 -0.86)"/>
+      </g>
+    </svg>
+  </div>
+
+  <main id="main">
+    <section class="section page-head" id="publications-list">
+      <div class="wrap">
+        <nav class="crumbs reveal" aria-label="Breadcrumb"><a href="index.html">Home</a><span aria-hidden="true">/</span><span aria-current="page">Publications</span></nav>
+        <header class="page-hero reveal">
+          <span class="page-ghost" aria-hidden="true">Papers</span>
+          <p class="overline">Writing &amp; research</p>
+          <h1 class="page-title">Publications</h1>
+          <span class="accent-bar" aria-hidden="true"><i></i><i></i><i></i></span>
+          <p class="section-lead">Papers, reports, datasets and talks. Can&rsquo;t access one? <a class="text-link" href="mailto:[PLACEHOLDER-EMAIL]@example.com">Email me</a> and I&rsquo;ll send a copy.</p>
+        </header>
+
+        <dl class="pub-metrics reveal">
+          <div><dt>[N]</dt><dd>Citations</dd></div>
+          <div><dt>[N]</dt><dd>h-index</dd></div>
+          <div><dt>8</dt><dd>Listed outputs</dd></div>
+        </dl>
+        <div class="filter-bar reveal" role="group" aria-label="Filter publications by year">
+            <button class="filter-btn is-active" type="button" data-pub-filter="all" aria-pressed="true">All years</button>
+            <button class="filter-btn" type="button" data-pub-filter="in-review" aria-pressed="false">In review</button>
+            <button class="filter-btn" type="button" data-pub-filter="2026" aria-pressed="false">2026</button>
+            <button class="filter-btn" type="button" data-pub-filter="2025" aria-pressed="false">2025</button>
+            <button class="filter-btn" type="button" data-pub-filter="2024" aria-pressed="false">2024</button>
+            <button class="filter-btn" type="button" data-pub-filter="older" aria-pressed="false">2023 &amp; prior</button>
+        </div>
+        <p class="filter-status" id="pub-status" aria-live="polite">Showing all 8 outputs</p>
+
+        <section class="pub-group reveal" data-pub-group aria-labelledby="cat-articles">
+          <h2 class="pub-cat" id="cat-articles">Scientific articles <span class="pub-count">3</span></h2>
+          <ul class="pub-list">
+            <li class="pub-item" data-year="2026" data-pub-kind="Journal article" data-authors="[PLACEHOLDER: Authors]" data-venue="[PLACEHOLDER: Journal name]" data-date="[PLACEHOLDER: Year]" data-cta="Read publication">
+              <span class="pub-type pub-type--journal">Journal</span>
+              <div class="pub-body">
+                <h3 class="pub-title">[PLACEHOLDER: Journal article title 1]</h3>
+                <p class="pub-meta">[PLACEHOLDER: Authors] · <span class="pub-outlet">[PLACEHOLDER: Journal name]</span> · [PLACEHOLDER: Year]</p>
+              </div>
+              <a class="text-link pub-link" href="#">Read <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></a>
+              <div class="pub-full" hidden>
+                <p class="lede">[PLACEHOLDER: one-sentence summary of what this publication finds or argues.]</p>
+                <h3>Abstract</h3>
+                <p>[PLACEHOLDER: paste the abstract here.]</p>
+              </div>
+            </li>
+            <li class="pub-item" data-year="in-review" data-pub-kind="Preprint · In review" data-authors="[PLACEHOLDER: Authors]" data-venue="[PLACEHOLDER: Repository]" data-date="In review" data-cta="Read publication">
+              <span class="pub-type pub-type--preprint">Preprint</span>
+              <div class="pub-body">
+                <h3 class="pub-title">[PLACEHOLDER: Preprint title 2 (in review)]</h3>
+                <p class="pub-meta">[PLACEHOLDER: Authors] · <span class="pub-outlet">[PLACEHOLDER: Repository]</span> · In review</p>
+              </div>
+              <a class="text-link pub-link" href="#">Read <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></a>
+              <div class="pub-full" hidden>
+                <p class="lede">[PLACEHOLDER: one-sentence summary of what this publication finds or argues.]</p>
+                <h3>Abstract</h3>
+                <p>[PLACEHOLDER: paste the abstract here.]</p>
+              </div>
+            </li>
+            <li class="pub-item" data-year="2025" data-pub-kind="Journal article" data-authors="[PLACEHOLDER: Authors]" data-venue="[PLACEHOLDER: Journal name]" data-date="[PLACEHOLDER: Year]" data-cta="Read publication">
+              <span class="pub-type pub-type--journal">Journal</span>
+              <div class="pub-body">
+                <h3 class="pub-title">[PLACEHOLDER: Journal article title 3]</h3>
+                <p class="pub-meta">[PLACEHOLDER: Authors] · <span class="pub-outlet">[PLACEHOLDER: Journal name]</span> · [PLACEHOLDER: Year]</p>
+              </div>
+              <a class="text-link pub-link" href="#">Read <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></a>
+              <div class="pub-full" hidden>
+                <p class="lede">[PLACEHOLDER: one-sentence summary of what this publication finds or argues.]</p>
+                <h3>Abstract</h3>
+                <p>[PLACEHOLDER: paste the abstract here.]</p>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <section class="pub-group reveal" data-pub-group aria-labelledby="cat-reports">
+          <h2 class="pub-cat" id="cat-reports">Reports &amp; briefs <span class="pub-count">2</span></h2>
+          <ul class="pub-list">
+            <li class="pub-item" data-year="2025" data-pub-kind="Report" data-authors="[PLACEHOLDER: Authors]" data-venue="[PLACEHOLDER: Organisation]" data-date="[PLACEHOLDER: Year]" data-cta="Read publication">
+              <span class="pub-type pub-type--report">Report</span>
+              <div class="pub-body">
+                <h3 class="pub-title">[PLACEHOLDER: Policy brief title]</h3>
+                <p class="pub-meta">[PLACEHOLDER: Authors] · <span class="pub-outlet">[PLACEHOLDER: Organisation]</span> · [PLACEHOLDER: Year]</p>
+              </div>
+              <a class="text-link pub-link" href="#">Read <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></a>
+              <div class="pub-full" hidden>
+                <p class="lede">[PLACEHOLDER: one-sentence summary of what this publication finds or argues.]</p>
+                <h3>Abstract</h3>
+                <p>[PLACEHOLDER: paste the abstract here.]</p>
+              </div>
+            </li>
+            <li class="pub-item" data-year="2024" data-pub-kind="Report" data-authors="[PLACEHOLDER: Authors]" data-venue="[PLACEHOLDER: Organisation]" data-date="[PLACEHOLDER: Year]" data-cta="Read publication">
+              <span class="pub-type pub-type--report">Report</span>
+              <div class="pub-body">
+                <h3 class="pub-title">[PLACEHOLDER: Technical report title]</h3>
+                <p class="pub-meta">[PLACEHOLDER: Authors] · <span class="pub-outlet">[PLACEHOLDER: Organisation]</span> · [PLACEHOLDER: Year]</p>
+              </div>
+              <a class="text-link pub-link" href="#">Read <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></a>
+              <div class="pub-full" hidden>
+                <p class="lede">[PLACEHOLDER: one-sentence summary of what this publication finds or argues.]</p>
+                <h3>Abstract</h3>
+                <p>[PLACEHOLDER: paste the abstract here.]</p>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <section class="pub-group reveal" data-pub-group aria-labelledby="cat-datasets">
+          <h2 class="pub-cat" id="cat-datasets">Datasets <span class="pub-count">1</span></h2>
+          <ul class="pub-list">
+            <li class="pub-item" data-year="2026" data-pub-kind="Dataset" data-authors="[PLACEHOLDER: Authors]" data-venue="[PLACEHOLDER: Repository, e.g. Zenodo]" data-date="[PLACEHOLDER: Year]" data-cta="Access dataset">
+              <span class="pub-type pub-type--dataset">Dataset</span>
+              <div class="pub-body">
+                <h3 class="pub-title">[PLACEHOLDER: Dataset title]</h3>
+                <p class="pub-meta">[PLACEHOLDER: Authors] · <span class="pub-outlet">[PLACEHOLDER: Repository, e.g. Zenodo]</span> · [PLACEHOLDER: Year]</p>
+              </div>
+              <a class="text-link pub-link" href="#">Access <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></a>
+              <div class="pub-full" hidden>
+                <p class="lede">[PLACEHOLDER: one sentence on what the dataset contains.]</p>
+                <h3>About the dataset</h3>
+                <p>[PLACEHOLDER: coverage, format, licence and how to cite it.]</p>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <section class="pub-group reveal" data-pub-group aria-labelledby="cat-conferences">
+          <h2 class="pub-cat" id="cat-conferences">Conferences &amp; talks <span class="pub-count">2</span></h2>
+          <ul class="pub-list">
+            <li class="pub-item" data-year="2024" data-pub-kind="Conference talk" data-authors="" data-venue="[PLACEHOLDER: Conference name]" data-date="[PLACEHOLDER: Month Year, City]" data-cta="View event details">
+              <span class="pub-type pub-type--conference">Conference</span>
+              <div class="pub-body">
+                <h3 class="pub-title">[PLACEHOLDER: Presentation title 1]</h3>
+                <p class="pub-meta"><span class="pub-outlet">[PLACEHOLDER: Conference name]</span> · [PLACEHOLDER: Month Year, City]</p>
+              </div>
+              <a class="text-link pub-link" href="#">Details <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></a>
+              <div class="pub-full" hidden>
+                <p class="lede">[PLACEHOLDER: one sentence on what the presentation covered.]</p>
+                <h3>Abstract</h3>
+                <p>[PLACEHOLDER: paste the abstract or session description here.]</p>
+              </div>
+            </li>
+            <li class="pub-item" data-year="older" data-pub-kind="Conference talk" data-authors="" data-venue="[PLACEHOLDER: Conference name]" data-date="[PLACEHOLDER: Month Year, City]" data-cta="View event details">
+              <span class="pub-type pub-type--conference">Conference</span>
+              <div class="pub-body">
+                <h3 class="pub-title">[PLACEHOLDER: Presentation title 2]</h3>
+                <p class="pub-meta"><span class="pub-outlet">[PLACEHOLDER: Conference name]</span> · [PLACEHOLDER: Month Year, City]</p>
+              </div>
+              <a class="text-link pub-link" href="#">Details <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></a>
+              <div class="pub-full" hidden>
+                <p class="lede">[PLACEHOLDER: one sentence on what the presentation covered.]</p>
+                <h3>Abstract</h3>
+                <p>[PLACEHOLDER: paste the abstract or session description here.]</p>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <p class="empty-note" id="pub-empty" hidden>Nothing listed for this period yet.</p>
+
+        <p class="page-back reveal"><a class="text-link" href="index.html#publications">&larr; Back to home</a></p>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= Footer ================= -->
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div class="footer-brand">
+        <a class="logo" href="index.html#hero">
+          <span class="logo-mark" aria-hidden="true">
+            <svg width="24" height="24" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M16 28V14"/>
+              <path d="M16 14c0-6.2 4.2-10 10.5-10 0 6.2-4.3 10-10.5 10Z"/>
+              <path d="M16 19c0-5-3.4-7.8-8.5-7.8 0 5 3.4 7.8 8.5 7.8Z"/>
+            </svg>
+          </span>
+          <span class="logo-text">Sagar Paudel</span>
+        </a>
+        <p class="footer-tagline">Agriculture, food systems and AI for resilient rural landscapes.</p>
+        <p class="footer-location">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10.5c0 5.5-8 12-8 12s-8-6.5-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10.5" r="3"/></svg>
+          Based in the Netherlands
+        </p>
+      </div>
+      <nav class="footer-links" aria-label="Explore">
+        <h3>Explore</h3>
+        <ul>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#education">Education</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="blog.html">Speaking &amp; Blog</a></li>
+          <li><a href="publications.html" aria-current="page">Publications</a></li>
+          <li><a href="index.html#cv">CV</a></li>
+        </ul>
+      </nav>
+      <div class="footer-connect">
+        <h3>Connect</h3>
+        <ul class="social-list">
+          <li><a href="mailto:[PLACEHOLDER-EMAIL]@example.com">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="m3.5 7.5 8.5 6 8.5-6"/></svg>
+            Email</a></li>
+          <li><a href="https://www.linkedin.com/in/[PLACEHOLDER]" target="_blank" rel="noopener">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5A2.49 2.49 0 1 1 0 3.5a2.49 2.49 0 0 1 4.98 0ZM.4 8.2h4.2V24H.4V8.2Zm7.6 0h4v2.2h.06c.56-1.05 1.93-2.16 3.97-2.16 4.25 0 5.03 2.76 5.03 6.35V24h-4.2v-8.4c0-2.02-.04-4.62-2.85-4.62-2.85 0-3.29 2.2-3.29 4.48V24H8V8.2Z"/></svg>
+            LinkedIn</a></li>
+          <li><a href="https://github.com/[PLACEHOLDER]" target="_blank" rel="noopener">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.56 0-.28-.01-1.02-.02-2-3.2.7-3.88-1.54-3.88-1.54-.52-1.33-1.28-1.68-1.28-1.68-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.03 1.76 2.7 1.25 3.35.96.1-.75.4-1.25.72-1.54-2.55-.29-5.24-1.28-5.24-5.68 0-1.26.45-2.28 1.18-3.09-.12-.29-.51-1.46.11-3.05 0 0 .96-.31 3.15 1.18a10.9 10.9 0 0 1 5.74 0c2.19-1.49 3.15-1.18 3.15-1.18.62 1.59.23 2.76.11 3.05.73.81 1.18 1.83 1.18 3.09 0 4.41-2.69 5.38-5.25 5.67.41.35.77 1.05.77 2.12 0 1.53-.01 2.76-.01 3.14 0 .31.21.67.8.56A10.52 10.52 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5Z"/></svg>
+            GitHub</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="wrap footer-bottom-inner">
+        <p>© <span id="year">2026</span> Sagar Paudel. All rights reserved.</p>
+        <p>Built with plain HTML, CSS &amp; JS.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ================= Feature modal ================= -->
+  <div class="modal" id="feature-modal" hidden>
+    <div class="modal-overlay" data-modal-close></div>
+
+    <div class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="modal-title" tabindex="-1">
+      <button class="modal-close" type="button" data-modal-close aria-label="Close">
+        <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+      </button>
+
+      <div class="modal-scroll">
+        <div class="modal-media" id="modal-media"></div>
+
+        <div class="modal-body">
+          <p class="modal-kind" id="modal-kind"></p>
+          <h2 class="modal-title" id="modal-title"></h2>
+
+          <ul class="modal-meta" id="modal-meta"></ul>
+
+          <div class="modal-author">
+            <img class="modal-avatar" src="Sagar Dai Photo.jpeg" alt="" loading="lazy">
+            <div>
+              <p class="modal-author-name">Sagar Paudel</p>
+              <p class="modal-author-role">Agri-food &amp; climate adaptation · Wageningen University &amp; Research</p>
+            </div>
+          </div>
+
+          <div class="modal-content" id="modal-content"></div>
+
+          <ul class="tag-list tag-list--pink modal-tags" id="modal-tags"></ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
